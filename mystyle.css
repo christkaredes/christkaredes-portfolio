@@ -1,0 +1,34 @@
+.grad{
+    background-image: linear-gradient(to bottom right, rgb(18, 64, 190), #bdbdbd);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    min-height:100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgprimary{
+    color: rgb(253, 253, 253);
+}
+#contact{
+text-align: center;
+background-color: rgb(223, 119, 0);
+padding: 5px;
+}
+.img-responsive{
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+#linkedin{
+    padding: 10px;
+    text-decoration: none;
+    }
+#github{
+    padding: 10px;
+    text-decoration: none;
+}
+#asdf{
+    padding: 10px;
+}
