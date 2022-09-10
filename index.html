@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="mystyle.css">
   </head>
-<!---NAV BAR-->
+<!--NAV BAR-->
 <div class="grad">
   <nav id="nav" nav class="navbar navbar-expand-lg navbar-dark">
   
@@ -29,7 +29,7 @@
     </ul>
   </div>
 </nav>
-<!---NAV BAR END-->
+<!--NAV BAR END-->
   <body>
     
     <div class="container">
@@ -37,9 +37,8 @@
         <div class="row">
           <!--Introduction and about me-->
           <div id="introduction" div class="col-sm-4" style="color:#ffffff">
-            <h1 class="display-2" style="color:#ffffff">Hello,</h1>
-            <h1 class="display-2" style="color:#ffffff">I'm Christ</h1>
-          I am an Information Technology graduate who enjoys learning new applications and applying their features to projects.
+            <h1 class="display-2" style="color:#ffffff">Hello, <br> I'm Christ</h1>
+            I am an Information Technology graduate who enjoys learning new applications and applying their features to projects.
             <div class="icons">
               <a href="https://www.linkedin.com/in/christ-karedes/" id="linkedin" class="fa fa-linkedin fa-3x" style="color:#ffffff"></a>
               <a href="https://github.com/christkaredes" id="github" class="fa fa-github fa-3x" style="color:#ffffff"></a>
@@ -48,14 +47,17 @@
           </div>
           
           <div id="emptyColumn" div class="col-sm-4"></div>
+
           <!--Image of me-->
           <div id="picture" div class="col-sm-4"> 
-            <img src="images/placeholder.jpg" class="img-responsive rounded" alt="picture of me">
+            <img src="images/profile.jpg" class="img-responsive rounded-circle" alt="picture of me">
           </div>
         </div>
-        <h1 style="color: #ffffff; text-align: center;">My Projects</h1>
-        <!--CARD COLUMN BEGIN-->
-        <div class= "row">
+
+        <h1 style="color: #ffffff; text-align: center;" id="Projects">My Projects</h1>
+
+        <!--PROJECT CARDS 1 BEGIN-->
+        <div class= "row" id="projects1">
           <!--CARD 1-->
           <div class="col-12 col-md-6 col-lg-3 p-3">
             <div class="card" id="jqueryBakery" style="width: auto;">
@@ -74,8 +76,8 @@
               <img class="card-img-top" src="images/aspx-bakery.jpg" alt="aspx bakery snapshot">
               <div class="card-body">
                 <h5 class="card-title">ASPX Bakery</h5>
-                <p class="card-text">The big difference in this bakery is that it is made in C# and requires dropdown menu navigation to make orders. This project includes a login page to view the submitted orders including the names, phone numbers, and choices of users.</p>
-                <a href="..." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Website</a>
+                <p class="card-text">The big difference in this bakery is that it is made in C# and requires dropdown menu navigation to make orders. This project includes a login page to view the submitted orders including the names, phone numbers, and choices of users. For security reasons, the database cannot be viewed online. It can only be viewed if the project were downloaded and opened locally.</p>
+                <a href="https://bakery-aspx.azurewebsites.net/index.aspx" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Website</a>
                 <a href="https://github.com/christkaredes/Bakery-ASPX" target="_blank" rel="noopener noreferrer" class="btn btn-secondary bg-success">Repository</a>
               </div>
             </div>
@@ -93,26 +95,46 @@
           </div>
           <!--CARD 4-->
           <div class="col-12 col-md-6 col-lg-3 p-3">
-            <div class="card" id="magic8ball" style="width: auto;">
+            <div class="card h-100" id="magic8ball" style="width: auto;">
               <img class="card-img-top" src="images/magic-8-ball.PNG" alt="magic 8 ball snapshot">
               <div class="card-body">
                 <h5 class="card-title">Magic 8 Ball</h5>
                 <p class="card-text">
-                  This project has three magic 8 balls. One uses the console with text only. The second one is an alternate version of the 8 ball, but the difference is that the 8 ball is replaced by a mysterious seer who gives his own strange answers. The last one is a standard 8 ball but with a GUI for easier use.
+                  This project has three variations of magic 8 balls made in C#. One uses the console with text only. The second one is an alternate version of the 8 ball, but the difference is that the 8 ball is replaced by a mysterious seer who gives his own strange answers. The last one is a standard 8 ball but with a GUI for easier use.
                 </p>
-                <a href="..." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Website</a>
                 <a href="https://github.com/christkaredes/Magic8Ball" target="_blank" rel="noopener noreferrer" class="btn btn-secondary bg-success">Repository</a>
               </div>
             </div>
           </div>
         </div>
-        <!--CARD COLUMN END-->
+        <!--PROJECT CARDS 1 END-->
+        
+        <!--PROJECT CARDS 2 BEGIN-->
+        <div class="row" id="projects2">
+          <div class="col-12 col-md-6 col-lg-3 p-3">
+            <div class="card h-100" id="archaeologydig" style="width: auto;">
+              <img class="card-img-top" src="images/archaeologydig.PNG" alt="magic 8 ball snapshot">
+              <div class="card-body">
+                <h5 class="card-title">Archaeology Dig Game</h5>
+                <p class="card-text">
+                  This is a battleship game with an archaeology theme. The player must find the palace, temple, forum, house, and the hut to win. The player will be notified when they have found an entire building. When all buildings are found, the player wins and is given a performance rating (higher percentage is better).
+                </p>
+                <a href="https://christkaredes.github.io/Archaeology-Dig/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Website</a>
+                <a href="https://github.com/christkaredes/Archeology-Dig" target="_blank" rel="noopener noreferrer" class="btn btn-secondary bg-success">Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--PROJECT CARDS 2 END-->
     </div> 
+
     <!--CONTACT BANNER-->
     <div id="contact" div class="bottom-align-text" style="color:#ffffff">Contact: karedeschrist@gmail.com</div>
   </body>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
   </div>
+
 </html>
